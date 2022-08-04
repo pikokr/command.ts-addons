@@ -16,7 +16,8 @@
   },
   "scripts": {
     "build": "tsup-node",
-    "test": "node -r @swc-node/register test"
+    "test": "node -r @swc-node/register test",
+    "prepack": "yarn build"
   },
   "peerDependencies": {
     "@pikokr/command.ts": "^5.1.3-dev.8ad9605"
